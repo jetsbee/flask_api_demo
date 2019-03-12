@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api:
+    image: python:latest
+    volumes:
+      - ${proj_path}:/root/flask_api_demo
+    working_dir: /root/flask_api_demo
