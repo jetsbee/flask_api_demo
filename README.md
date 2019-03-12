@@ -22,3 +22,8 @@
   run-flask-api.sh
   ```
 - - -
+
+## 2. Flask-RESTful + Blueprints
+- Installed Flask_restful
+- Implemented api with Flask-RESTful + Blueprints
+---
