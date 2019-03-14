@@ -6,3 +6,17 @@ services:
     volumes:
       - ${proj_path}:/root/flask_api_demo
     working_dir: /root/flask_api_demo
+    depends_on:
+      - db
+
+  db:
+    image: mongo:latest
+    volumes:
+      - mongo_configdb:/data/configdb
+      - mongo_db:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo_configdb:
+  mongo_db:

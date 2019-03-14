@@ -1,2 +1,4 @@
 Flask
 Flask_restful
+Flask_PyMongo
+pytest
