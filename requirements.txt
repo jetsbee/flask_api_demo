@@ -4,3 +4,4 @@ Flask_PyMongo
 pytest
 passlib
 flask-jwt-extended
+marshmallow==3.0.0rc4

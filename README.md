@@ -41,3 +41,10 @@
 - Implemented models
 - Introduction to JWT
 - - -
+
+
+## 5. Validation
+
+- Introduction to marshmallow
+- Implemented schemas
+- - -
