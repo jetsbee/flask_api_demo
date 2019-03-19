@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/macos,linux,python,windows,pycharm+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=macos,linux,python,windows,pycharm+all,visualstudiocode
+# Modified "Flask stuff:" section by JS
 
 ### Linux ###
 *~
@@ -192,7 +193,8 @@ local_settings.py
 db.sqlite3
 
 # Flask stuff:
-instance/
+instance/*
+!instance/application.cfg.example
 .webassets-cache
 
 # Scrapy stuff:

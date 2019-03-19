@@ -2,3 +2,5 @@ Flask
 Flask_restful
 Flask_PyMongo
 pytest
+passlib
+flask-jwt-extended
